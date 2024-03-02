@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>GymSite</title>
+</head>
+<body>
+    <nav id="myNav">
+        <span id="brand">
+            <img src="./images/oorjaLogo.png" alt="" id="brandLogo">
+            <h2 id="brandName">OORJA <span id="author">by ABHISHEk</span></h2>
+        </span>
+        <ul id="navList">
+            <li><a href="#">Employee Benefits</a></li>
+            <li><a href="#">Log in</a></li>
+            <li><a href="#">Register</a></li>
+        </ul>
+    </nav>
+    <section id="findGym">
+        <span class="findGymElem" id="heroCont">
+            <h1 id="heroHead">GYM ALLIANCE</h1>
+            <h2 id="heroPoints">Flexible Fitness. No Strings. Just Gyms.</h2>
+            <div id="searchCont">
+                <input type="search" placeholder="PinCode/location here">
+                <button id="gymSearchBtn">GO</button>
+            </div>
+        </span>
+        <span class="findGymElem" id="heroImage"></span>
+    </section>
+    <section id="operation">
+        <h1 id="opHeader">Operation</h1>
+        <h3 id="opDescription">OORJA fuels your fitness journey with a dynamic network of gyms, spas, and wellness apps. Seamlessly access diverse fitness experiences under one empowering pass.</h3>
+        <div id="opFeatures">
+            <card id="locationFeature" class="featureCard">
+                <!-- <object type="image/svg+xml" data="./images/locationSvg.svg" class="featureSvg" loop>
+                    Your browser does not support SVG
+                </object> -->
+                <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script> 
+                <dotlottie-player src="https://lottie.host/0729d82c-d178-460a-a502-380e7aba57ed/JZXKSpk0c4.json" background="transparent" speed="1" style="width: 30%; aspect-ratio: 1/1;" loop autoplay></dotlottie-player>
+                <h1>Your place, our gym</h1>
+                <h3>Book online at your place without a hastle</h3>
+            </card>
+            <card id="passFeature" class="featureCard">
+                <object type="image/svg+xml" data="./images/passSvg.svg" class="featureSvg" loop>
+                    Your browser does not support SVG
+                </object>
+                
+                <h1>Your place, our gym</h1>
+                <h3>Book online at your place without a hastle</h3>
+            </card>
+            <card id="gymFeature" class="featureCard">
+                <object type="image/svg+xml" data="./images/exerciseSvg.svg" class="featureSvg" loop>
+                    Your browser does not support SVG
+                </object>
+                <h1>Your place, our gym</h1>
+                <h3>Book online at your place without a hastle</h3>
+            </card>
+        </div>
+        <button id="explorePassBtn">Get the Pass</button>
+    </section>
+    
+    <script src="./js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,198 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: none;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+
+html,body{
+    background-color: #FFFFFF;
+    width: 100%;
+    height: 100%;
+}
+
+#myNav{
+    /* background-color: brown; */
+
+    width: 100%;
+    height: 80px;
+    padding: 2%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.07);
+    
+}
+#brand{
+    /* background-color: antiquewhite; */
+
+    width: 30%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+#brandLogo{
+    width: 50px;
+}
+#brandName{
+    font-size: x-large;
+    letter-spacing: 2px;
+}
+#author{
+    font-size: x-small;
+    background-color: #2A2D36;
+    color: #A9EB05;
+    padding: 2px;
+    border-radius: 2px;
+}
+#myNav #navList{
+    /* background-color: aqua; */
+    
+    width: 70%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#myNav li{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#myNav  a{
+    color: black;
+    font-size: large;
+    font-weight: 500;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 1px;
+}
+#myNav a:hover{
+    background-color: #2A2D36;
+    color: #FFFFFF;
+}
+#findGym{
+    /* background-color: #f0ffff; */
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 700px;
+}
+.findGymElem{
+    /* background-color: aquamarine; */
+
+    width: 50%;
+    height: 100%;
+}
+#heroCont{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#heroImage{
+    background-image: URL('../images/heroImage.jpg');
+    background-size: cover;
+    background-position: center;
+}
+#heroHead{
+    font-size: 45px;
+    font-weight: 600;
+}
+#heroPoints{
+    font-size: 20px;
+    font-weight: 600;
+}
+#searchCont{
+    /* background-color:blueviolet; */
+
+    width: 80%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: -5px 5px 15px rgba(0, 0, 0, 0.07);
+
+}
+#searchCont input{
+    /* background-color: brown; */
+
+    text-align: center;
+    width: 80%;
+    height: 100%;
+}
+#gymSearchBtn{
+    background-color:#A9EB05;
+
+    width: 20%;
+    height: 100%;
+    font-size: larger;
+    font-weight: 500;
+    cursor: pointer;
+}
+#gymSearchBtn:hover {
+    background-image: linear-gradient(135deg, rgba(0, 0, 0, 0.446) 50%, rgba(180, 250, 5, 1) 50%);
+}
+#operation{
+    background-color: #EBF0F1;
+    width: 100%;
+    height: 700px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+#opHeader{
+    font-size: 45px;
+    font-weight: 600;
+}
+#opDescription{
+    font-size: 20px;
+    font-weight: 600;
+    width: 50%;
+    text-align: center;
+}
+#opFeatures{
+    width: 100%;
+    height: 285px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.featureCard{
+    background-color: #587074;
+    width: 25%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 4px;
+}
+.featureSvg{
+    width: 30%;
+    aspect-ratio: 1/1;
+}
+#opFeatures h1{
+    color: #A9EB05;
+}
+#opFeatures h3{
+    text-align: center;
+    color: #FFFFFF;
+}
+#explorePassBtn{
+    background-color: #2A2D36;
+    color: #FFFFFF;
+    width: 30%;
+    height: 60px;
+    font-size: larger;
+    font-weight: 500;
+    cursor: pointer;
+}
